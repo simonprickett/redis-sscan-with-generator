@@ -1,7 +1,7 @@
 {
   "name": "redis-sscan-with-generator",
   "version": "0.0.1",
-  "description": "",
+  "description": "Using the Redis SSCAN command with a JavaScript generator function.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
