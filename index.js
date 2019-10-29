@@ -33,7 +33,7 @@ async function* setMembersGenerator(keyName) {
   let cursor = '0';
 
   do {
-    // Get the new few set members (will get up to 10 by default)
+    // Get the next few set members.
     const response = await redisClient.sscanAsync(keyName, cursor);
 
     // Reponse [0] contains the new cursor position from Redis.
