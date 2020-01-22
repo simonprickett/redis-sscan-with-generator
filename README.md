@@ -1,5 +1,7 @@
 # redis-sscan-with-generator
 
+See my blog post about this [here](https://simonprickett.dev/exploring-javascript-generators-with-redis-sets/).
+
 ## Description
 
 Example using a [JavaScript generator function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) to retrieve members from a Redis set using the [SSCAN](https://redis.io/commands/sscan) command.
